@@ -11,9 +11,9 @@
 --paragraph-font:'_______',Ysabeau:wght@200;
 
 --navigation-background-color:#0d195c;
---navigation-link-color:#000000;
---navigation-hover-link-color:#ffffff;
---navigation-hover-background:#000000;
+--navigation-link-color:#ffffff;
+--navigation-hover-link-color:#1887c7;
+--navigation-hover-background:#ffffff;
 }
 
 body{
@@ -49,11 +49,19 @@ nav a {
     padding: 1rem;
 }
 
-nav a:link,nav a:visited{
-    color: var(--navigation-background-color);
+nav a:link, nav a:visited{
+    color: var(--navigation-link-color);
 }
 
 nav a:hover {
     color: var(--navigation-hover-link-color);
     background-color: var(--navigation-hover-background);
+}
+
+.experience{
+    text-align: center;
+    font-weight: bold;
+}
+span{
+    font-weight: bold;
 }
