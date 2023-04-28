@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@200;400;600&display=swap');
+
+
+:root {
+--primary-color:#000000;
+--secondary-color:#ffffff;
+--accent1-color:#ffffff
+--accent2-color:#d6c73e
+
+--heading-font:'_______',Ysabeau:wght@400;
+--paragraph-font:'_______',Ysabeau:wght@200;
+
+--navigation-background-color:#0d195c;
+--navigation-link-color:#000000;
+--navigation-hover-link-color:#ffffff;
+--navigation-hover-background:#000000;
+}
+
+body{
+    font-family______:var(--paragraph-font);
+    max-width: ______960px;
+    padding: ______20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p{
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--navigation-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--navigation-hover-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link,nav a:visited{
+    color: var(--navigation-background-color);
+}
+
+nav a:hover {
+    color: var(--navigation-hover-link-color);
+    background-color: var(--navigation-hover-background);
+}
