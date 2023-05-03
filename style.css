@@ -1,3 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Your existing CSS rules go here */
+
+/* Class Selectors */
+/* You will be putting your class selector rules in this section. */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  /* Adjusted aside rule example. */
+  /* (Your aside may have other properties. This is just an example.) */
+  aside {
+    width: 20em;
+    text-align: center;
+    margin-bottom: 2rem; /* Remove duplication of margin property from box class */
+  }
+  
 main{
     max-width: 840px;
 }
@@ -10,10 +37,28 @@ aside{
     color: #333;
     text-align: center;
 }
-
+aside {
+    position: relative; /* Set the container to have a position of relative */
+  }
+  
+  aside img {
+    max-width: 100%; /* Set the maximum width of the image to prevent overflow */
+    display: block; /* Remove any extra spacing or margin around the image */
+  }
+  
+  aside h2 {
+    position: absolute; /* Set the heading to have a position of absolute */
+    top: -3%; /* Position the heading 50% from the top of the container */
+    left: 50%; /* Position the heading 50% from the left of the container */
+    transform: translate(-50%, -50%); /* Center the heading both horizontally and vertically */
+    color: rgb(0, 0, 0); /* Set the color of the heading text */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add a text shadow for better readability */
+  }
+  
 main img{
     width: 150px;
     height: auto;
+    float: right;
     
 }
 
