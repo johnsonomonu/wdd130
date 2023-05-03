@@ -1,67 +1,75 @@
+/* Import external font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@200;400;600&display=swap');
 
-
+/* Define CSS variables for colors and fonts */
 :root {
---primary-color:#000000;
---secondary-color:#ffffff;
---accent1-color:#ffffff
---accent2-color:#d6c73e
-
---heading-font:'_______',Ysabeau:wght@400;
---paragraph-font:'_______',Ysabeau:wght@200;
-
---navigation-background-color:#0d195c;
---navigation-link-color:#ffffff;
---navigation-hover-link-color:#1887c7;
---navigation-hover-background:#ffffff;
+  --primary-color: #000000;
+  --secondary-color: #ffffff;
+  --accent1-color: #ffffff;
+  --accent2-color: #d6c73e;
+  --heading-font: 'Ysabeau', sans-serif;
+  --paragraph-font: 'Ysabeau', sans-serif;
+  --navigation-background-color: #0d195c;
+  --navigation-link-color: #ffffff;
+  --navigation-hover-link-color: #1887c7;
+  --navigation-hover-background: #ffffff;
 }
 
-body{
-    font-family______:var(--paragraph-font);
-    max-width: ______960px;
-    padding: ______20px;
+/* Apply general styles to the body */
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-family: var(--heading-font);
-    color: var(--primary-color);
+/* Apply font and color styles to headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
 }
 
-header{
-    padding: 20px;
-    background-color: var(--accent1-color);
+/* Apply padding to paragraphs */
+p {
+  padding: 25px;
 }
 
-p{
-    padding: 25px;
+/* Style the header */
+header {
+  padding: 20px;
+  background-color: var(--accent1-color);
 }
 
+/* Style navigation links */
 nav {
-    background-color: var(--navigation-background-color);
-    font-size: 1.2rem;
-    display: flex;
+  background-color: var(--navigation-background-color);
+  font-size: 1.2rem;
+  display: flex;
 }
 
 nav a {
-    display: block;
-    color: var(--navigation-hover-link-color);
-    text-decoration: none;
-    padding: 1rem;
+  display: block;
+  color: var(--navigation-link-color);
+  text-decoration: none;
+  padding: 1rem;
 }
 
-nav a:link, nav a:visited{
-    color: var(--navigation-link-color);
+nav a:link,
+nav a:visited {
+  color: var(--navigation-link-color);
 }
 
 nav a:hover {
-    color: var(--navigation-hover-link-color);
-    background-color: var(--navigation-hover-background);
+  color: var(--navigation-hover-link-color);
+  background-color: var(--navigation-hover-background);
 }
 
-.experience{
-    text-align: center;
-    font-weight: bold;
+/* Add a class to style the "Experience" section */
+.section-experience {
+  text-align: center;
+  font-weight: bold;
 }
-span{
-    font-weight: bold;
+
+/* Use a span for bold text */
+span {
+  font-weight: bold;
 }
