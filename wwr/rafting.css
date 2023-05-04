@@ -1,0 +1,72 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Define CSS variables */
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --background-color: #f2f2f2;
+  --font-family: 'Montserrat', sans-serif;
+}
+
+/* Apply general styles to headings and paragraphs */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family);
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+p {
+  font-family: var(--font-family);
+  color: var(--primary-color);
+}
+
+/* Remove underlines from social media links */
+a {
+  text-decoration: none;
+}
+
+/* Limit width of the page */
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Style the Hero Container using Position Absolute */
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero article {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(44, 62, 80, 0.8);
+  color: #fff;
+  padding: 20px;
+}
+
+.hero article p {
+  float: left;
+  width: 60%;
+}
+
+.hero article img {
+  float: right;
+  width: 40%;
+  margin-top: 20px;
+}
