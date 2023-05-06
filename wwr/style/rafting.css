@@ -70,3 +70,9 @@ body {
   width: 40%;
   margin-top: 20px;
 }
+
+/* Float the image named "omonu johnson" to the right */
+.hero article img[src*="omonu-johnson"] {
+  float: right;
+  margin: 20px 0 0 20px;
+}
