@@ -60,19 +60,8 @@ body {
   padding: 20px;
 }
 
-.hero article p {
-  float: left;
-  width: 60%;
-}
 
 .hero article img {
   float: right;
   width: 40%;
-  margin-top: 20px;
-}
-
-/* Float the image named "omonu johnson" to the right */
-.hero article img[src*="omonu-johnson"] {
-  float: right;
-  margin: 20px 0 0 20px;
 }
