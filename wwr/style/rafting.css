@@ -34,37 +34,71 @@ body {
 
 /* Style the Hero Container using Position Absolute */
 .hero {
-  margin: 10px auto;
+  background-color: #000000;
+  /* margin: 10px auto; */
 	position: relative;
+  height: 400px;
+  padding: 100px 0;
 }
 
 .hero img {
+  position: absolute;
+  opacity: 0.2;
   width: 100%;
-	height: 100%;
+  margin-top: -100px;
+	height: 600px;
 	object-fit: cover;
+  position: relative;
+  z-index: 0;
 }
 
 .hero h1 {
+  top: 100px;
+  left: 40%;
+  margin: auto;
+  position: absolute;
   text-align: center;
 	font-size: 1.5rem;
+  color: #ffffff;
 	text-shadow: 3px 3px 5px #000000;
 }
 
 .hero article {
+  padding: 100px 0;
+  top: 100px;
+  left: 40%;
+  margin: 20px 0;
   position: absolute;
+  display: inline;
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.8);
+  /* background-color: transparent; */
   color: #ffffff;
   padding: 20px;
-  clear: both; /* clear the float */
+  /* clear: both; clear the float */
+  z-index: 10;
+  opacity: 1;
+}
+.hero article p {
+  margin-right: 20px;
+  min-width: 50%;
+  color: #f2f2f2;
 }
 
 
-
 .hero article img {
+  opacity: 1;
+  border-radius: 20px;
+  /* right: 20px ; */
+  padding: 0 20px;
+  margin: 0 20px;
   float: right;
   width: 40%;
+  height: 90%;
   margin-top: 20px;
+}
+
+section .history {
+  margin: 40px;
 }
