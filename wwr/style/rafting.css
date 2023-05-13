@@ -52,10 +52,10 @@ body {
   z-index: 0;
 }
 
-article h1 {
-  top:-5px;
+.hero article h1 {
+  margin-top:-20px;
   left: 40%;
-  margin: auto;
+ 
   position: absolute;
   text-align: center;
 	font-size: 1.5rem;
