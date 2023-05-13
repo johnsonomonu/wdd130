@@ -52,8 +52,8 @@ body {
   z-index: 0;
 }
 
-.hero h1 {
-  top: -5px;
+article h1 {
+  top:-5px;
   left: 40%;
   margin: auto;
   position: absolute;
