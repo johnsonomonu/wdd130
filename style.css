@@ -25,9 +25,9 @@
     margin-bottom: 2rem; /* Remove duplication of margin property from box class */
   }
   
-main{
+/* main{
     max-width: 840px;
-}
+} */
 
 aside{
     margin: 1em;
@@ -48,11 +48,11 @@ aside {
   
   aside h2 {
     position: absolute; /* Set the heading to have a position of absolute */
-    top: -3%; /* Position the heading 50% from the top of the container */
+    top: 12%; /* Position the heading 50% from the top of the container */
     left: 50%; /* Position the heading 50% from the left of the container */
     transform: translate(-50%, -50%); /* Center the heading both horizontally and vertically */
-    color: rgb(0, 0, 0); /* Set the color of the heading text */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add a text shadow for better readability */
+    color: #13d162; /* Set the color of the heading text */
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5); /* Add a text shadow for better readability */
   }
   
 main img{
@@ -66,8 +66,47 @@ p{
     padding: 0;
 }
 
-footer{
+/* footer{
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
+} */
+
+header,footer {
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+nav{
+  background-color: steelblue;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav a{
+  display: blockp;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+header,.grid,footer {
+  display: grid;
+  align-items: center;
+}
+
+main {
+  grid-column: 2/3;
+  margin: 1rem;
+}
+
+aside{
+  width: 20rem;
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
