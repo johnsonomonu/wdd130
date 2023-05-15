@@ -51,7 +51,7 @@ aside {
     top: 12%; /* Position the heading 50% from the top of the container */
     left: 50%; /* Position the heading 50% from the left of the container */
     transform: translate(-50%, -50%); /* Center the heading both horizontally and vertically */
-    color: #13d162; /* Set the color of the heading text */
+    color: #098004; /* Set the color of the heading text */
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5); /* Add a text shadow for better readability */
   }
   
