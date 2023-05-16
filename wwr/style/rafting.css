@@ -35,7 +35,7 @@ header{
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
-  align-items: space-between;
+  
 }
 .navigation {
   display: flex;
