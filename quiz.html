@@ -5,32 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="quiz.css">
-    <title>form</title>
+    <title>Form</title>
 </head>
 <body>
     <header>
         <h1>Basic HTML and CSS quiz</h1>
     </header>
-        <form action="#">
+    <form action="#">
+        <fieldset>
             <legend>Questions</legend>
 
-            <label for="q1">What doe s the acronym CSS stand for?</label>
+            <label for="q1">What does the acronym CSS stand for?</label>
             <input type="text" name="q1" id="q1">
 
             <label for="q2">How are id and class attributes selected in CSS?</label>
-            <textarea id="q2" name="q2" rows="4" placeholder="describe it here..."></textarea>
+            <textarea id="q2" name="q2" rows="4" placeholder="Describe it here..."></textarea>
 
-            <label for="q2">Which of the following is a valid CSS comment?</label>
+            <label for="q3">Which of the following is a valid CSS comment?</label>
             <select id="q3" name="q3">
-            <option value="" selected disabled>Choose one...</option>
-            <option value="">//</option>
-            <option value="">/*  */</option>
-            <option value="">none</option>
+                <option value="" selected disabled>Choose one...</option>
+                <option value="//">//</option>
+                <option value="/* */">/*  */</option>
+                <option value="none">none</option>
             </select>
-            <label for="pet">How many id attribute can you use in one element</label>
+
+            <label for="q4">How many id attributes can you use in one element?</label>
             <input type="number" id="q4" name="q4">
 
             <button type="submit">Submit quiz</button>
-        </form>
+        </fieldset>
+    </form>
 </body>
 </html>
