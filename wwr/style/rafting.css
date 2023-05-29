@@ -259,3 +259,126 @@ footer div {
   display: flex;
   gap: 20px;
 }
+
+
+ .cta-button a {
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.trip-descriptions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.trip-description {
+  flex-basis: calc(33.33% - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.trip-description h2 {
+  margin-top: 10px;
+}
+
+.trip-description img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.trip-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trip-table th, .trip-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+
+.trips{
+  text-align: center;
+}
+
+
+
+.hero-section {
+  position: relative;
+}
+
+.hero-section img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-section h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+
+.newsletter-section {
+  margin-bottom: 20px;
+}
+
+.newsletter-section h2 {
+  margin-bottom: 10px;
+}
+
+.newsletter-section form {
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter-section input[type="text"],
+.newsletter-section input[type="email"] {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.newsletter-section button {
+  padding: 10px 20px;
+}
+
+.cta-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cta-section h2 {
+  margin-bottom: 10px;
+}
+
+.cta-section .cta-button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+}
+
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
