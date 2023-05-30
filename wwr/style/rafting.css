@@ -234,7 +234,7 @@ form {
 
 
 
-  button {
+  button{
       margin: 1rem 0;
       background-color: #003478;
       color: #fff;
@@ -249,23 +249,33 @@ form {
       background-color: darkgreen;
     }
 
+    footer {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .footer-column {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
 
-footer {
-  display: flex;
-  justify-content: space-between;
-}
 
-footer div {
-  display: flex;
-  gap: 20px;
-}
-
-
- .cta-button a {
+.cta-button {
+  display: inline-block;
   margin-bottom: 20px;
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
+  background-color: #003478;
+  padding: 10px 20px;
+  text-align: center;
+  width: 100%;
 }
+button:hover {
+  background-color: darkgreen;
+}
+
 
 .trip-descriptions {
   display: flex;
@@ -307,15 +317,16 @@ footer div {
   text-align: center;
 }
 
-
-
 .hero-section {
   position: relative;
+  background-color: #000000;
 }
 
 .hero-section img {
   width: 100%;
   height: auto;
+  opacity: 0.2; /* Adjust the opacity value as per your preference */
+  z-index: 0;
 }
 
 .hero-section h1 {
