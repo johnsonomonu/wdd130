@@ -60,7 +60,7 @@ header {
   grid-column: 2;
   display: flex;
   justify-content: flex-end;
-  align-items:center;
+  align-items:flex-end;
   color: #232323;
   border: 1px #232323 solid;
   border-radius: 5px;
