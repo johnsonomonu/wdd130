@@ -1,14 +1,19 @@
-/* Import external font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@200;400;600&display=swap');
-
 /* Define CSS variables for colors and fonts */
 :root {
-  --primary-color: #000000;
-  --secondary-color: #ffffff;
-  --accent1-color: #ffffff;
-  --accent2-color: #d6c73e;
+  /* Color scheme label */
+  --color-scheme-name: "Vibrant Tones";
+
+  /* Color palette */
+  --primary-color: #f44336;
+  --secondary-color: #2196f3;
+  --accent1-color: #4caf50;
+  --accent2-color: #ff9800;
+
+  /* Fonts */
   --heading-font: 'Ysabeau', sans-serif;
   --paragraph-font: 'Ysabeau', sans-serif;
+  
+  /* Navigation */
   --navigation-background-color: #0d195c;
   --navigation-link-color: #ffffff;
   --navigation-hover-link-color: #1887c7;
@@ -73,3 +78,5 @@ nav a:hover {
 span {
   font-weight: bold;
 }
+
+/* Color scheme on Coolors.co: https://coolors.co/your-color-scheme-id */
