@@ -42,9 +42,12 @@ aside {
 }
 
 aside img {
-  max-width: 100%; /* Set the maximum width of the image to prevent overflow */
-  display: block; /* Remove any extra spacing or margin around the image */
+  max-width: 100%;
+  display: block;
+  width: 200px;
+  height: auto;
 }
+
 
 aside h2 {
   position: absolute; /* Set the heading to have a position of absolute */
